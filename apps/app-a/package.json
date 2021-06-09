@@ -1,0 +1,21 @@
+{
+  "name": "@tepez/app-a",
+  "version": "0.0.0",
+  "description": "",
+  "homepage": "https://github.com/tomyam1/webstorm-monorepo-issue#readme",
+  "bugs": {
+    "url": "https://github.com/tomyam1/webstorm-monorepo-issue/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomyam1/webstorm-monorepo-issue.git"
+  },
+  "license": "UNLICENSED",
+  "author": "Tom Yam <tomyam@tepez.co.il>",
+  "dependencies": {
+    "@tepez/package-a": "file:../../packages/package-a",
+    "@tepez/package-b": "file:../../packages/package-b"
+  },
+  "devDependencies": {
+  }
+}
